@@ -1,0 +1,27 @@
+{
+  "name": "react-monthly-events",
+  "version": "0.0.0",
+  "description": "The react js component to display calendar with events in given month.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzakrzewski/react-monthly-events.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-component",
+    "calendar",
+    "event-calendar",
+    "monthly-events"
+  ],
+  "author": "Łukasz Zakrzewski <contact@lzakrzewski.com> (lzakrzewski.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lzakrzewski/react-monthly-events/issues"
+  },
+  "homepage": "https://github.com/lzakrzewski/react-monthly-events#readme"
+}
