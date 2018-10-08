@@ -1,0 +1,8 @@
+.Month table td {
+    width: 14.29%;
+    padding: 0;
+}
+
+.Month table td.today {
+    background-color: #f5f5f5;
+}

@@ -1,0 +1,88 @@
+/** Common */
+.Day ul.events {
+    margin-bottom: 0;
+}
+
+.Day ul.events li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.ReactModal__Overlay {
+    z-index: 100;
+}
+
+.Day ul.events li span {
+    display: inline-block;
+}
+
+.Day {
+    min-height: 6rem;
+}
+
+.Day .day {
+    padding: .25rem;
+}
+
+/** All day */
+.Day ul.events.all-day-events li {
+    position: relative;
+    text-align: left;
+}
+
+.Day ul.events.all-day-events li span {
+    display: inline-block;
+    padding: .25rem;
+}
+
+.Day ul.events.all-day-events li.duration-1 {
+    width: 100%;
+    z-index: 10;
+}
+
+.Day ul.events.all-day-events li.duration-2 {
+    width: 200%;
+    z-index: 20;
+}
+.Day ul.events.all-day-events li.duration-3 {
+    width: 300%;
+    z-index: 30;
+}
+.Day ul.events.all-day-events li.duration-4 {
+    width: 400%;
+    z-index: 40;
+}
+.Day ul.events.all-day-events li.duration-5 {
+    width: 500%;
+    z-index: 50;
+}
+.Day ul.events.all-day-events li.duration-6 {
+    width: 600%;
+    z-index: 60;
+}
+.Day ul.events.all-day-events li.duration-7 {
+    width: 700%;
+    z-index: 70;
+}
+
+/** Day events */
+.Day ul.events.day-events li span {
+    font-size: 75%;
+}
+
+.Day ul.events.day-events li span.dot {
+    margin-left: 0.25rem;
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.Day ul.events.day-events li span.start {
+    font-weight: 700;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
