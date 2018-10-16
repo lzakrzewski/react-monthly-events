@@ -5,7 +5,7 @@ node_js:
 
 install:
   - npm i -g npm@5.8.0
-  - npm ci
+  - npm i
 
 script:
   - npm run test-ci
