@@ -1,1 +1,1 @@
-# react-event-calendar
+# react-event-calendar [![Build Status](https://travis-ci.org/lzakrzewski/react-monthly-events.svg?branch=master)](https://travis-ci.org/lzakrzewski/react-monthly-events)
