@@ -1,0 +1,1 @@
+export { default as MonthlyEvents } from './components/Month';
