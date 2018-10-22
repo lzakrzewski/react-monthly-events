@@ -1,8 +1,8 @@
-import React, {Component} from "react";
-import * as events from "../events";
-import _ from "lodash";
-import moment from "moment";
-import "./Day.css";
+import React, {Component} from 'react';
+import * as events from '../events';
+import _ from 'lodash';
+import moment from 'moment';
+import './Day.css';
 
 export default class DayEvents extends Component {
     getEventColor = (event, events) => {
@@ -36,7 +36,7 @@ export default class DayEvents extends Component {
                                         <span className="start">{moment(event.start).format('hh:mm')}</span>
                                         <span>{ event.event }</span>
                                     </li>
-                                )
+                                );
                             })
                         }
                     </ul>

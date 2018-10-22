@@ -8,4 +8,5 @@ install:
   - npm i
 
 script:
+  - npm run lint-ci
   - npm run test-ci

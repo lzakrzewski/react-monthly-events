@@ -1,7 +1,7 @@
-import React from "react";
-import {shallow} from "enzyme";
-import moment from "moment";
-import AllDayEvents from "../../src/components/AllDayEvents";
+import React from 'react';
+import {shallow} from 'enzyme';
+import moment from 'moment';
+import AllDayEvents from '../../src/components/AllDayEvents';
 
 test('can render empty div when no all days events ', () => {
     const day = shallow(<AllDayEvents day={moment('2017-01-01')} events={[]} />);

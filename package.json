@@ -5,6 +5,8 @@
   "main": "build/index.js",
   "scripts": {
     "test": "jest --watch",
+    "lint-fix": "eslint -c .eslintrc.js --fix --quiet --ext .jsx --ext .js src/ tests/",
+    "lint-ci": "eslint -c .eslintrc.js --ext .jsx --ext .js src/ tests/",
     "test-ci": "jest --coverage --no-cache",
     "build": "babel src -d build --copy-files",
     "prepublish": "npm run build"
@@ -50,6 +52,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.2.1",
+    "babel-eslint": "^10.0.1",
     "babel-jest": "^22.4.3",
     "babel-loader": "^7.1.4",
     "babel-polyfill": "^6.26.0",
@@ -63,6 +66,8 @@
     "css-loader": "^0.28.11",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^5.7.0",
+    "eslint-plugin-react": "^7.11.1",
     "jest": "^22.4.3",
     "jsdom": "^8.1.0",
     "mocha": "^5.2.0",

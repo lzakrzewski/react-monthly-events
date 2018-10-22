@@ -1,8 +1,8 @@
-import React, {Component} from "react";
-import * as events from "../events";
-import {getDaysDiffInWeek} from "../calendar";
-import _ from "lodash";
-import "./Day.css";
+import React, {Component} from 'react';
+import * as events from '../events';
+import {getDaysDiffInWeek} from '../calendar';
+import _ from 'lodash';
+import './Day.css';
 
 export default class AllDayEvents extends Component {
     getEventColor = (event, events) => {
@@ -24,8 +24,8 @@ export default class AllDayEvents extends Component {
         const allDayEvents = events.allDayEvents(this.props.day, this.props.events);
 
         return (
-          <div>
-              { allDayEvents.length > 0 &&
+            <div>
+                { allDayEvents.length > 0 &&
                   <ul className="list-inline events all-day-events ">
                       { _.map(
                           allDayEvents,
@@ -37,12 +37,12 @@ export default class AllDayEvents extends Component {
                                   >
                                       <span>{ event.event }</span>
                                   </li>
-                              )
+                              );
                           })
                       }
                   </ul>
-              }
-          </div>
+                }
+            </div>
         );
     }
 }

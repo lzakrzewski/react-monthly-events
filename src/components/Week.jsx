@@ -5,7 +5,7 @@ import {
     getDaysOfWeek
 } from '../calendar';
 import _ from 'lodash';
-import Day from "./Day";
+import Day from './Day';
 import moment from 'moment';
 
 export default class Week extends Component {
@@ -17,11 +17,11 @@ export default class Week extends Component {
         let tdClasses = [];
 
         if (dayName === SUNDAY) {
-            tdClasses.push('text-danger')
+            tdClasses.push('text-danger');
         }
 
         if (moment(day).startOf('day').isSame(moment().startOf('day'))) {
-            tdClasses.push('today')
+            tdClasses.push('today');
         }
 
         return tdClasses.join(' ');
@@ -47,7 +47,7 @@ export default class Week extends Component {
                                     events={this.props.events}
                                 />
                             </td>
-                        )
+                        );
                     })
                 }
             </tr>

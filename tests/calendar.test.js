@@ -16,10 +16,10 @@ describe('getDaysOfWeek', () => {
         expect(days).toEqual(
             [
                 {
-                    "day": "1",
-                    "date": "2017-01-01",
-                    "dayName": "Sunday",
-                    "week": 0
+                    'day': '1',
+                    'date': '2017-01-01',
+                    'dayName': 'Sunday',
+                    'week': 0
                 }
             ]
         );
@@ -31,22 +31,22 @@ describe('getDaysOfWeek', () => {
         expect(days).toEqual(
             [
                 {
-                    "day": "26",
-                    "dayName": "Monday",
-                    "date": "2018-02-26",
-                    "week": 4
+                    'day': '26',
+                    'dayName': 'Monday',
+                    'date': '2018-02-26',
+                    'week': 4
                 },
                 {
-                    "day": "27",
-                    "dayName": "Tuesday",
-                    "date": "2018-02-27",
-                    "week": 4
+                    'day': '27',
+                    'dayName': 'Tuesday',
+                    'date': '2018-02-27',
+                    'week': 4
                 },
                 {
-                    "day": "28",
-                    "dayName": "Wednesday",
-                    "date": "2018-02-28",
-                    "week": 4
+                    'day': '28',
+                    'dayName': 'Wednesday',
+                    'date': '2018-02-28',
+                    'week': 4
                 },
             ]
         );
@@ -58,10 +58,10 @@ describe('getDaysOfWeek', () => {
         expect(days).toEqual(
             [
                 {
-                    "day": "1",
-                    "dayName": "Sunday",
-                    "date": "2019-12-01",
-                    "week": 0
+                    'day': '1',
+                    'dayName': 'Sunday',
+                    'date': '2019-12-01',
+                    'week': 0
                 }
             ]
         );
