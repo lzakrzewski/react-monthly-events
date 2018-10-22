@@ -1,1 +1,3 @@
-export { default as MonthlyEvents } from './components/Month';
+import MonthlyEvents  from './components/Month';
+
+export default MonthlyEvents;

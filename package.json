@@ -1,12 +1,12 @@
 {
   "name": "react-monthly-events",
-  "version": "0.0.1-dev",
+  "version": "0.0.4-dev",
   "description": "The react js component to display calendar with events in given month.",
   "main": "build/index.js",
   "scripts": {
     "test": "jest --watch",
     "test-ci": "jest --coverage --no-cache",
-    "build": "babel src -d build",
+    "build": "babel src -d build --copy-files",
     "prepublish": "npm run build"
   },
   "repository": {
