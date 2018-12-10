@@ -7,7 +7,7 @@ export default class Month extends Component {
         return (
             <div className="row">
                 <div className="col-md-12 Month">
-                    <table className="table table-bordered">
+                    <table className="table table-bordered table-responsive">
                         <thead className="thead-dark">
                             <tr>
                                 <th>
