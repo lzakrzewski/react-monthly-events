@@ -16,7 +16,6 @@ A [Bootstrap 4](https://getbootstrap.com/) based [React](https://reactjs.org/) c
 ## Demo 
 Online demo is available!
 [https://react-monthly-events.herokuapp.com/](https://react-monthly-events.herokuapp.com/)  
-(The first load of the page can take a while due to heroku limitations.)
 
 ## Working example
 You can quickly setup this calendar component on your local machine and see how it works:
@@ -31,8 +30,19 @@ class YourComponent extends Component {
     render() {
         const currentMonth = new Date('2017-01-01');
         const events = [
-            { id: 'event-1', start: '2017-02-01', allDay: false, event: 'Learn ReactJS' },
-            { id: 'event-2', start: '2017-02-01 00:01:00', end: '2017-02-17 00:01:00', allDay: false, event: 'Go home' },
+            { 
+                id: 'event-1', 
+                start: '2017-01-03 18:00:00', 
+                end: '2017-01-03 19:30:00', 
+                allDay: false, 
+                event: 'Learn ReactJS' 
+            },
+            { 
+                id: 'event-2', 
+                start: '2017-01-04 17:01:00',  
+                allDay: false, 
+                event: 'Go home' 
+            },
         ];
         
         return (
@@ -47,19 +57,19 @@ class YourComponent extends Component {
 }
 ```
 
-#### The arguments of component
+#### Props
 - `currentMonth` indicates a month to display. For example if you want to display the calendar page for February 2017 you need to provide any date between "2017-02-01" and "2017-02-28".
 It can be string, an instance of moment or an instance of Date.
-- `events` is an array of events to display. The component will filter out the all events for other months. 
+- `events` is an array of events to display. The component will filter out the all events from not matching months. 
 
-#### The structure of event objects
-| name    | description                              | type       | required |
-|---------|------------------------------------------|------------|----------|
-| id      | an unique identifier for an event string | string     | true     |
-| start   | the date when the event starts           | ISO string | true     |
-| event   | the date when the event starts           | ISO string | true     |
-| allDay  | name of event                            | boolean    | true     |
-| end     | the date when the event ends             | ISO string | false    |
+#### Structure of the event objects
+| name    | description                                                                                                        | type       | required |
+|---------|--------------------------------------------------------------------------------------------------------------------|------------|----------|
+| id      | an unique identifier for the event                                                                                 | string     | true     |
+| start   | a date when the event starts                                                                                       | ISO string | true     |
+| event   | a name of the event                                                                                                | ISO string | true     |
+| allDay  | when it is `true` the event will be a "bar" on the top of a cell when it is `false` the event will appear as "dot" | boolean    | true     |
+| end     | a date when the event ends                                                                                         | ISO string | false    |
 
 ```
 {
@@ -72,8 +82,8 @@ It can be string, an instance of moment or an instance of Date.
 ```
 
 ## Dependencies
-- Bootstrap: "4.x"
-- "moment": "2.x",
-- "lodash": "4.x",
-- "react": "16.x"
+- [Bootstrap](https://getbootstrap.com/): "4.x"
+- [Moment.js](https://momentjs.com/): "2.x",
+- [Lodash](https://lodash.com/): "4.x",
+- [React](https://reactjs.org/): "16.x"
     
