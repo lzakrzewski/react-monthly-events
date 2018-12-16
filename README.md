@@ -1,7 +1,7 @@
 # react-event-calendar [![Build Status](https://travis-ci.org/lzakrzewski/react-monthly-events.svg?branch=master)](https://travis-ci.org/lzakrzewski/react-monthly-events) [![npm version](https://badge.fury.io/js/react-monthly-events.svg)](https://badge.fury.io/js/react-monthly-events)
 
 ## A monthly calendar view component for React
-A [Bootstrap 4](https://getbootstrap.com/) based [React](https://reactjs.org/) component to display calendar with scheduled events for given month.
+A [Bootstrap 4](https://getbootstrap.com/) based [React](https://reactjs.org/) component to display monthly scheduled events calendar.
 
 ![Screenshot](resources/screenshot.png)
 
