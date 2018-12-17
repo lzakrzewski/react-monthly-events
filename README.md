@@ -18,7 +18,7 @@ Online demo is available!
 [https://react-monthly-events.herokuapp.com/](https://react-monthly-events.herokuapp.com/)  
 
 ## Working example
-You can quickly setup this calendar component on your local machine and see how it works:
+You can quickly setup this calendar component on your local machine and see how it works:        
 [lzakrzewski/react-monthly-events-sandbox](https://github.com/lzakrzewski/react-monthly-events-sandbox)
 
 ## Basic usage 
@@ -58,8 +58,8 @@ class YourComponent extends Component {
 ```
 
 #### Props
-- `currentMonth` indicates a month to display. For example if you want to display the calendar page for February 2017 you need to provide any date between "2017-02-01" and "2017-02-28".
-It can be string, an instance of moment or an instance of Date.
+- `currentMonth` indicates a month to display. For example if you want to display the calendar page for February 2017 you need to provide any date between "2017-02-01" and "2017-02-28".        
+It can be **string**, an instance of **[moment](https://momentjs.com/)** or an instance of **[Date Object](https://www.w3schools.com/jsref/jsref_obj_date.asp)**.
 - `events` is an array of events to display. The component will filter out the all events from not matching months. 
 
 #### Structure of the event objects
