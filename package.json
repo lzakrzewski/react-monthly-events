@@ -1,6 +1,6 @@
 {
   "name": "react-monthly-events",
-  "version": "0.0.6-dev",
+  "version": "0.0.7",
   "description": "The react js component to display calendar with events in given month.",
   "main": "build/index.js",
   "scripts": {
